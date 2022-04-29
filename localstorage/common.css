@@ -1,0 +1,26 @@
+#container{
+    margin-top:-400px;
+     display:grid;
+     grid-template-columns:repeat(4,1fr);
+     grid-template-rows: repeat(2,200px);
+     gap:10px;
+  }
+     
+    #container>div{
+     margin:auto;
+  }
+    img{
+        width:300px;
+    }
+  p+img{
+      width:120px;
+      margin-top:-20px;
+      margin-left:30px
+  }
+  p{
+      margin-left:43px
+  }
+     h3{
+      margin-left:40px
+     }
+  
